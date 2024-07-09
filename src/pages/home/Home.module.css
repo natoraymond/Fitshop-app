@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home_content{
+    padding-left: 5rem ;
+    
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+}
+.social_icons{
+    width: 120px;
+    height: 24px;
+    gap: 1rem;
+    padding-left: 5rem;
+}
+.social_icons img{
+    padding: 0.3rem;
+}

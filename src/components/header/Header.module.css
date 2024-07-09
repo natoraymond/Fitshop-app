@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 5rem 0rem;
+    cursor: pointer;
+}
+.left_logo{
+    display: flex;
+    align-items: center;
+    gap: 65rem;
+}
+button{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0.1rem 2rem;
+    border-radius: 10px solid;
+    gap: 1rem;
+}
+button ~ ::placeholder{
+    padding-right: 5rem;
+    background-color: red;
+}
+
+@media (max-width: 766px) {
+    .header_container {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 1rem;
+    }
+  
+    .left_logo {
+      gap: 2rem; /* Reduce gap for smaller screens */
+      width: 100%;
+      justify-content: space-between;
+    }
+  
+    button {
+      width: auto; /* Adjust width for smaller screens */
+      padding: 0.5rem;
+    }
+  
+    .right {
+      margin-top: 1rem; /* Add margin for better spacing */
+    }
+  }
+  
+ 
